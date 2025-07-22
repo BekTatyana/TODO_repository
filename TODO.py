@@ -69,6 +69,7 @@ def all_function (main):
     add_to_xlsx(main)
 
 main =  yr_choice()
-all_function(main)
+if not main: print('Ваш список пустой, как так, попробуйте снова')
+else: all_function(main)
 
    
